@@ -1,0 +1,247 @@
+#root {
+  max-width: 1280px;
+  margin: 0 0;
+  padding: 0 0;
+  text-align: center;
+}
+#tagB{
+  display: block;
+  margin: 8px;
+  width: 180px;
+  background:none;
+  border-radius: 5px;
+  border-color: rgb(70, 4, 131);
+      /* padding-right: 50px;
+    padding-left: 50px; */
+  
+
+}
+    /* #line{
+      border-left:1px solid rgb(219, 50, 228);
+        height: 500px;
+        float: left; 
+        padding-  left: 100px;
+
+    }  */
+
+.tags{
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  /* float: left; */
+  /* border-right:1px solid rgb(50, 65, 228); */
+  padding-bottom: 1000px;
+  /* padding-top: 500px; */
+  /* padding-right: 0px; */
+ }
+
+ .menu{
+  /* border-right:1px solid rgb(50, 65, 228); */
+  /* border:solid ; */
+  /* border-width: 1.5px; */
+  /* border-color: rgb(64, 255, 0);
+  border-radius: 15px; */
+
+  
+ }
+
+.post{
+  
+  border:solid ;
+  border-width: 1.5px;
+  border-color: rgb(99, 35, 158);
+  border-radius: 15px;
+  position: relative;
+  left: 35%;
+  width: 75%;
+}
+
+#logo{
+  position: absolute;
+  top: 0.1%;
+  left: 1%;
+  /* float: left; */
+   /* border-right:1px solid rgb(50, 65, 228); */
+  /* border-radius: 0px;  */
+}
+
+.profilIcon{
+  float:inline-end;
+  margin-top: 0px;
+  /* width: 40px;
+  height: 40px; */
+  /* border:solid ; */
+  /* border-color: rgb(35, 158, 35); */
+
+}
+
+#changeColor{
+  position:absolute;
+  right:5vh;
+  top:4%;
+  background:none;
+  font-size: 37px;
+  padding: 0;
+}
+.statistics{
+  border-top: 1px solid rgb(50, 65, 228);
+  border-bottom: 1px solid rgb(50, 65, 228);
+  padding-bottom: 5%;
+  
+}
+#statB{
+  margin: 8px;
+  background:none;
+  border-radius: 5px;
+  border-color: rgb(70, 4, 131);
+
+}
+.line{
+  border-right: 1.5px solid rgb(50, 65, 228);
+  height: 100%;
+  position: absolute;
+  left: 18%;
+  top: 0;
+}
+.MyAccount{
+  position: absolute;
+  left: 30%;
+  top: 10%;
+}
+
+.desc{
+  text-align: center;
+  left: 50%;
+  font-size: 22px;
+  position: absolute;
+  left: 56%;
+  top: 37%;
+  /* font-family: 'berlin' */
+  color: rgb(75, 75, 75);
+  /* font-weight: bold; */
+  font-weight: 700;
+  /* flex: 1; */
+  /* line-height: normal; */
+  /* margin: 10px 0 0; */
+  /* max-width: 345px; */
+  /* overflow-wrap: anywhere; */
+  /* font-family: din-round,sans-serif; */
+}
+.pink{
+  background-color:rgb(190, 11, 81);
+  border-radius: 10px;
+  box-shadow: 0px 5px 0 rgb(125, 2, 49);
+}
+#pink{
+  color: rgb(255, 255, 255);
+  background-color:rgb(190, 11, 81);
+}
+
+.white{
+  box-shadow: 0px 2px 0 rgb(207,207,207);
+  border-radius: 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(207, 207, 207);
+  background-color: none;
+}
+#white{
+  color: rgb(190, 11, 81);
+}
+
+.logoText{
+  position: absolute;
+  top: 52%;
+  left: 9%;
+
+}
+.logoAirplan{
+  position: absolute;
+  top: 33%;
+  left: 22%;
+
+
+
+    /* animation properties */
+    animation-name: my-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: initial;
+    /* animation-timing-function: linear; */
+  
+  }
+  
+  @keyframes my-animation {
+    from {
+      top: -20%;
+    }
+    to{
+      top: 33%;
+    }
+  }
+
+
+.buttons{
+  position: absolute;
+  left: 65%;
+  top: 50%;
+}
+
+.topics{
+  position: absolute;
+  bottom: 10%;
+  list-style: none;
+  /* padding:10% 10% 10% 10%; */
+}
+  
+#t{
+  /* padding:50% 50% 50% 50%; */
+  margin: 8px;
+  display: block;
+  white-space: initial;
+}
+
+.list{
+  position: absolute;
+  bottom: 10%;
+  border-top: 1px solid rgb(207,207,207);
+  border-bottom: 1px solid rgb(207,207,207);
+  padding-bottom: 5%;
+
+}
+
+#formField{
+  box-shadow: 0px 2px 0 rgb(207,207,207);
+  border-radius: 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(207, 207, 207);
+  background-color: none;
+  /* width: 40%; */
+  font-size: 20px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: 'Franklin Gothic Medium'; */
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  /* font-family: monospace; */
+  font-family: 'din-round',sans-serif;
+
+  padding: 15%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 2%;
+  /* padding-right: 70%; */
+}
+.login{
+  position: absolute;
+  left: 65%;
+  top: 35%;
+}
+
+.signin{
+  position: absolute;
+  left: 65%;
+  top: 20%;
+}
+
+
+
